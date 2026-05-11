@@ -94,7 +94,7 @@ body{
 body::before{
   content:'';position:fixed;inset:0;pointer-events:none;z-index:9990;
   background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);
-  mix-blend-mode:overlay;
+  mix-blend-mode:overlay;I
 }
 body::after{
   content:'';position:fixed;inset:0;pointer-events:none;z-index:9989;
@@ -1318,7 +1318,7 @@ footer{
 <!-- ══════════════════════════════
      GALLERY CAROUSEL
 ══════════════════════════════ -->
-<section class="sec-card" id="gallery">
+             <section class="sec-card" id="gallery">
   <div class="sw">
     <div class="gallery-intro">
       <div>
@@ -1334,63 +1334,36 @@ footer{
     <div class="carousel-wrap">
       <div class="carousel-track" id="carTrack">
 
-        <!-- ── CARD 1 — SFW ──
-             IMAGE: gal-1.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/gal-1.jpg
-             TYPE: SFW — display normally, no blur needed -->
+        <!-- CARD 1 -->
         <div class="gal-card rv d1">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;">📸</div>
-            <div class="gp-note">SFW · gal-1.jpg<br>Display normally · No blur</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/gal-1.jpg" alt="gal-1"/>
           <div class="gc-label">
             <div class="gc-char">SFW · Character Set</div>
             <div class="gc-title">Cosplay Preview 01</div>
           </div>
         </div>
 
-        <!-- ── CARD 2 — SFW ──
-             IMAGE: gal-2.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/gal-2.jpg
-             TYPE: SFW — display normally -->
+        <!-- CARD 2 -->
         <div class="gal-card rv d2">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;">📸</div>
-            <div class="gp-note">SFW · gal-2.jpg<br>Display normally · No blur</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/gal-2.jpg" alt="gal-2"/>
           <div class="gc-label">
             <div class="gc-char">SFW · Character Set</div>
             <div class="gc-title">Cosplay Preview 02</div>
           </div>
         </div>
 
-        <!-- ── CARD 3 — SFW ──
-             IMAGE: gal-3.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/gal-3.jpg
-             TYPE: SFW — display normally -->
+        <!-- CARD 3 -->
         <div class="gal-card rv d3">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;">📸</div>
-            <div class="gp-note">SFW · gal-3.jpg<br>Display normally · No blur</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/gal-3.jpg" alt="gal-3"/>
           <div class="gc-label">
             <div class="gc-char">SFW · Character Set</div>
             <div class="gc-title">Cosplay Preview 03</div>
           </div>
         </div>
 
-        <!-- ── CARD 4 — ⚠️ NSFW (BLURRED) ──
-             IMAGE: nsfw-1.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/nsfw-1.jpg
-             TYPE: NSFW — class="gal-card nsfw" applies blur automatically
-             INSTRUCTIONS: Replace gal-placeholder div with:
-             <img src="https://raw.githubusercontent.com/middleAgedCoda/Lollipop-Ginger/main/nsfw-1.jpg" alt=""/>
-             The CSS blur will apply automatically via .gal-card.nsfw img -->
+        <!-- CARD 4 NSFW -->
         <div class="gal-card nsfw rv d4">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;filter:blur(4px);">🔞</div>
-            <div class="gp-note" style="color:rgba(255,79,163,0.4);">⚠️ NSFW SLOT<br>nsfw-1.jpg<br>BLUR AUTO-APPLIES<br>via .gal-card.nsfw</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/nsfw-1.jpg" alt="nsfw-1"/>
           <div class="nsfw-badge">
             <div class="nsfw-lock">🔒</div>
             <div class="nsfw-label">Unlock on Fansly</div>
@@ -1401,30 +1374,18 @@ footer{
           </div>
         </div>
 
-        <!-- ── CARD 5 — SFW ──
-             IMAGE: gal-4.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/gal-4.jpg
-             TYPE: SFW — display normally -->
+        <!-- CARD 5 -->
         <div class="gal-card rv d5">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;">📸</div>
-            <div class="gp-note">SFW · gal-4.jpg<br>Display normally · No blur</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/gal-4.jpg" alt="gal-4"/>
           <div class="gc-label">
             <div class="gc-char">SFW · Character Set</div>
             <div class="gc-title">Cosplay Preview 04</div>
           </div>
         </div>
 
-        <!-- ── CARD 6 — ⚠️ NSFW (BLURRED) ──
-             IMAGE: nsfw-2.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/nsfw-2.jpg
-             TYPE: NSFW — blur auto-applies -->
+        <!-- CARD 6 NSFW -->
         <div class="gal-card nsfw rv d6">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;filter:blur(4px);">🔞</div>
-            <div class="gp-note" style="color:rgba(255,79,163,0.4);">⚠️ NSFW SLOT<br>nsfw-2.jpg<br>BLUR AUTO-APPLIES</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/nsfw-2.jpg" alt="nsfw-2"/>
           <div class="nsfw-badge">
             <div class="nsfw-lock">🔒</div>
             <div class="nsfw-label">Unlock on Fansly</div>
@@ -1435,28 +1396,18 @@ footer{
           </div>
         </div>
 
-        <!-- ── CARD 7 — SFW ──
-             IMAGE: gal-5.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/gal-5.jpg -->
+        <!-- CARD 7 -->
         <div class="gal-card rv">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;">📸</div>
-            <div class="gp-note">SFW · gal-5.jpg<br>Display normally</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/gal-5.jpg" alt="gal-5"/>
           <div class="gc-label">
             <div class="gc-char">SFW · Character Set</div>
             <div class="gc-title">Cosplay Preview 05</div>
           </div>
         </div>
 
-        <!-- ── CARD 8 — ⚠️ NSFW (BLURRED) ──
-             IMAGE: nsfw-3.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/nsfw-3.jpg -->
+        <!-- CARD 8 NSFW -->
         <div class="gal-card nsfw rv">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;filter:blur(4px);">🔞</div>
-            <div class="gp-note" style="color:rgba(255,79,163,0.4);">⚠️ NSFW SLOT<br>nsfw-3.jpg<br>BLUR AUTO-APPLIES</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/nsfw-3.jpg" alt="nsfw-3"/>
           <div class="nsfw-badge">
             <div class="nsfw-lock">🔒</div>
             <div class="nsfw-label">Unlock on Fansly</div>
@@ -1467,28 +1418,18 @@ footer{
           </div>
         </div>
 
-        <!-- ── CARD 9 — SFW ──
-             IMAGE: gal-6.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/gal-6.jpg -->
+        <!-- CARD 9 -->
         <div class="gal-card rv">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;">📸</div>
-            <div class="gp-note">SFW · gal-6.jpg<br>Display normally</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/gal-6.jpg" alt="gal-6"/>
           <div class="gc-label">
             <div class="gc-char">SFW · Character Set</div>
             <div class="gc-title">Cosplay Preview 06</div>
           </div>
         </div>
 
-        <!-- ── CARD 10 — ⚠️ NSFW (BLURRED) ──
-             IMAGE: nsfw-4.jpg
-             GitHub: middleAgedCoda/Lollipop-Ginger/main/nsfw-4.jpg -->
+        <!-- CARD 10 NSFW -->
         <div class="gal-card nsfw rv">
-          <div class="gal-placeholder">
-            <div style="font-size:2rem;filter:blur(4px);">🔞</div>
-            <div class="gp-note" style="color:rgba(255,79,163,0.4);">⚠️ NSFW SLOT<br>nsfw-4.jpg<br>BLUR AUTO-APPLIES</div>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/middleAgedCoda/Lollipop-Ginger@main/nsfw-4.jpg" alt="nsfw-4"/>
           <div class="nsfw-badge">
             <div class="nsfw-lock">🔒</div>
             <div class="nsfw-label">Unlock on Fansly</div>
@@ -1499,17 +1440,19 @@ footer{
           </div>
         </div>
 
-      </div><!-- /carousel-track -->
-    </div><!-- /carousel-wrap -->
+      </div>
+    </div>
 
     <div class="carousel-dots" id="carDots"></div>
 
     <div style="text-align:center;margin-top:28px;" class="rv">
-      <p style="font-size:0.78rem;color:var(--faint);margin-bottom:16px;letter-spacing:0.06em;">The blurred cards unlock in full resolution on Fansly. No previews. Real content.</p>
+      <p style="font-size:0.78rem;color:var(--faint);margin-bottom:16px;letter-spacing:0.06em;">
+        The blurred cards unlock in full resolution on Fansly. No previews. Real content.
+      </p>
       <a class="btn-pink" href="https://fansly.com/LollipopGinger" target="_blank">🔒 Unlock Full Archive on Fansly</a>
     </div>
   </div>
-</section>
+             </section>
 
 <!-- ══════════════════════════════
      TRANSMISSION LOG — SOCIALS
